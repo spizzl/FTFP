@@ -43,8 +43,7 @@ class server():
 
 
 
-#FTP
-#Florins Transsexuelle
+#FTFP
 class client():
 
 	def __init__(self, _peer, _addr):
@@ -101,9 +100,9 @@ if len(sys.argv) > 1:
 	elif sys.argv[1].lower() == "password" or sys.argv[1].lower() == "p":
 		ftp.password()
 	else:
-		print("ftp: illegal option")
+		print("ftfp: illegal option")
 		print("usage: python3 sever.py [ s(erver) | p(assword) ]")
 else:
-	print("ftp: nothing to do")
+	print("ftfp: nothing to do")
 	print("usage: python3 sever.py [ s(erver) | p(assword) ]")
 #print("Usage: python server.py (password, server)")
